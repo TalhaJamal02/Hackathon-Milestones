@@ -15,7 +15,7 @@ form.addEventListener('submit', (event: Event) => {
 
   // generate resume dynamically
   const resumeHtml = `
-    <h2><b>Editable Resume</b></h2> <!-- Corrected closing tag -->
+    <h2><b>Editable Resume</b></h2>
     <h3>Personal Information</h3>
     <p><b>Name:</b><span contenteditable="true"> ${user_name}</span></p>
     <p><b>Email:</b><span contenteditable="true"> ${email}</span></p>
